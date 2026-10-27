@@ -1,0 +1,77 @@
+# ==========================================
+# Evently Root Git Ignore
+# ==========================================
+
+# Environment secrets (keep example templates)
+.env
+.env.local
+.env.*.local
+*.env
+!.env.example
+!**/.env.example
+
+# Python virtual environments & packages
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases
+*.sqlite3
+db.sqlite3
+
+# Django static & media collected files
+staticfiles/
+media/
+
+# Node dependencies & frontend builds
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+build/
+**/build/
+.vite/
+*.tsbuildinfo
+
+# OS artifacts
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs & temp files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+.tmp/
+.cache/
+
+# IDE / Editor configuration
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Figma / platform-managed caches
+/.plugins/
+/.opencode-skills/
+/.figma/design-context/

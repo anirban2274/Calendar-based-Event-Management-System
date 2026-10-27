@@ -1,0 +1,17 @@
+# Core Django & REST Framework
+Django>=5.1.0,<6.2.0
+djangorestframework>=3.15.0
+django-cors-headers>=4.4.0
+
+# Production Database (Managed PostgreSQL)
+psycopg2-binary>=2.9.9
+dj-database-url>=2.2.0
+
+# Production Server & Static Files
+gunicorn>=22.0.0
+whitenoise>=6.7.0
+
+# Configuration & Utilities
+python-dotenv>=1.0.0
+asgiref>=3.8.1
+sqlparse>=0.5.0

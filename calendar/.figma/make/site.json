@@ -1,0 +1,10 @@
+{
+  "description": "Streamline your scheduling with a sleek calendar and event management platform designed for effortless organization and intuitive event tracking.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
